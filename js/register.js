@@ -157,7 +157,7 @@ $.ajax({
 	password: $("#password").val()
      }, 
     success: (data)=>{
-    console.log(data.identity);
+    // console.log(data.identity);
     if (data.identity == 1) {
     page("/organizer");	
     }else if (data.identity == 0) {
