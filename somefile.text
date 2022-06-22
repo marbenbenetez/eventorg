@@ -1,0 +1,218 @@
+// switch ($request) {
+  // case "/eventorg/api/load-organizer-data":
+  //   $org = new Organizer();
+  // 	$org->load_organizer_data();
+  //   break;
+  // case "/eventorg/api/load-post-data":
+  //   $org = new Organizer();
+  //   $org->load_post_data();
+  //   break;    
+  // case "/eventorg/api/get-categories":
+  //   $org = new Organizer();
+  //   $org->get_category();
+  //   break;
+  // case "/eventorg/api/check-notification":
+  //   $org = new Organizer();
+  //   $org->check_notification();
+  //   break;
+  // case "/eventorg/api/view-notification":
+  //   $org = new Organizer();
+  //   $org->view_notification();
+  //   break;         
+  // case "/eventorg/api/report-event":
+  //   $org = new Organizer();
+  //   $org->report_event();
+  //   break;    
+  // case "/eventorg/api/get-selected-category":
+  //   $org = new Organizer();
+  //   $org->get_selected_category();
+  //   break;
+  // case "/eventorg/api/get-organizer-account":
+  //   $org = new Organizer();
+  //   $org->get_organizer_account();
+  //   break;
+  // case "/eventorg/api/rate-organizer":
+  //   $org = new Organizer();
+  //   $org->rate_organizer();
+  //   break; 
+  // case "/eventorg/api/send-event-application":
+  //   $org = new Organizer();
+  //   $org->send_event_application();
+  //   break;
+  // case "/eventorg/api/check-messages":
+  //   $org = new Organizer();
+  //   $org->check_messages();
+  //   break;   
+  // case "/eventorg/api/check-messages-org":
+  //   $org = new Organizer();
+  //   $org->check_messages_org();
+  //   break; 
+   // case "/eventorg/api/view-messages":
+   //  $org = new Organizer();
+   //  $org->view_messages();
+   //  break; 
+   // case "/eventorg/api/send-messages":
+   //  $org = new Organizer();
+   //  $org->send_messages();
+   //  break; 
+   // case "/eventorg/api/get-accomplishments":
+   //  $org = new Organizer();
+   //  $org->get_accomplishments();
+   //  break;
+
+  // case "/eventorg/api/register-user":
+  //   $user = new User();
+  //   $user->register_user();
+  //   break;
+  // case "/eventorg/api/check-auth":
+  //   $user = new User();
+  //   $user->check_user_auth();
+  //   break;
+  // case "/eventorg/api/login-user":
+  //   $user = new User();
+  //   $user->login_user();
+  //   break;
+  // case "/eventorg/api/logout-user":
+  //   $user = new User();
+  //   $user->logout_user();
+  //   break;
+  // case "/eventorg/api/all-registered-user":
+  //   $user = new User();
+  //   $user->all_registered_user();
+  //   break;  
+  // case "/eventorg/api/load-reported-post":
+  //   $user = new User();
+  //   $user->load_reported_post();
+  //   break; 
+  // case "/eventorg/api/search-user":
+  //   $user = new User();
+  //   $user->search_user();
+  //   break;
+  // case "/eventorg/api/search-user-empty":
+  //   $user = new User();
+  //   $user->search_user_empty();
+  //   break;
+  // case "/eventorg/api/ban-user":
+  //   $user = new User();
+  //   $user->ban_user();
+  //   break;
+  // case "/eventorg/api/unban-user":
+  //   $user = new User();
+  //   $user->unban_user();
+  //   break; 
+  // case "/eventorg/api/verified-user":
+  //   $user = new User();
+  //   $user->verified_user();
+  //   break; 
+  // case "/eventorg/api/view-banned-users":
+  //   $user = new User();
+  //   $user->view_banned_users();
+  //   break;    
+  // case "/eventorg/api/search-banned-user-empty":
+  //   $user = new User();
+  //   $user->search_banned_user_empty();
+  //   break;
+  // case "/eventorg/api/search-banned-user":
+  //   $user = new User();
+  //   $user->search_banned_user();
+  //   break;
+  // case "/eventorg/api/view-pending-users":
+  //   $user = new User();
+  //   $user->view_pending_users();
+  //   break; 
+  // case "/eventorg/api/search-pending-user-empty":
+  //   $user = new User();
+  //   $user->search_pending_user_empty();
+  //   break;
+  // case "/eventorg/api/search-pending-user":
+  //   $user = new User();
+  //   $user->search_pending_user();
+  //   break;
+  // case "/eventorg/api/view-services":
+  //   $user = new User();
+  //   $user->view_services();
+  //   break;
+  // case "/eventorg/api/edit-service":
+  //   $user = new User();
+  //   $user->edit_service();
+  //   break;
+  // case "/eventorg/api/delete-service":
+  //   $user = new User();
+  //   $user->delete_service();
+  //   break;
+  // case "/eventorg/api/add-service":
+  //   $user = new User();
+  //   $user->add_service();
+  //   break;
+
+  // case "/eventorg/api/view-messages-client":
+  //   $org = new Client();
+  //   $org->view_messages_client();
+  //   break; 
+  // case "/eventorg/api/send-messages-client":
+  //   $client = new Client();
+  //   $client->send_messages_client();
+  //   break; 
+  // case "/eventorg/api/load-user-data":
+  //   $client = new Client();
+  //   $client->client_data();
+  //   break;  
+  // case "/eventorg/api/get-services-data":
+  //   $client = new Client();
+  //   $client->get_services_data();
+  //   break; 
+  // case "/eventorg/api/insert-event-data":
+  //   $client = new Client();
+  //   $client->insert_event_data();
+  //   break;  
+  // case "/eventorg/api/insert-event-data-others":
+  //   $client = new Client();
+  //   $client->insert_event_data_others();
+  //   break;     
+  // case "/eventorg/api/edit-event-data":
+  //   $client = new Client();
+  //   $client->edit_event_data();
+  //   break;    
+  // case "/eventorg/api/update-event-data":
+  //   $client = new Client();
+  //   $client->update_event_data();
+  //   break;
+  // case "/eventorg/api/delete-event-data":
+  //   $client = new Client();
+  //   $client->delete_event_data();
+  //   break; 
+  // case "/eventorg/api/get-userinfo-data":
+  //   $client = new Client();
+  //   $client->get_userinfo_data();
+  //   break;
+  // case "/eventorg/api/save-new-profile":
+  //   $client = new Client();
+  //   $client->save_new_profile();
+  //   break;
+  // case "/eventorg/api/view-applicants":
+  //   $client = new Client();
+  //   $client->view_applicants();
+  //   break; 
+  // case "/eventorg/api/accept-applicants":
+  //   $client = new Client();
+  //   $client->accept_applicants();
+  //   break;  
+  // case "/eventorg/api/view-accepted-applicants":
+  //   $client = new Client();
+  //   $client->view_accepted_applicants();
+  //   break;
+  // case "/eventorg/api/change-profile-picture":
+  //   $up = new Upload();
+  //   $up->change_profile_picture();
+  //   break; 
+  // case "/eventorg/api/change-cover-photo":
+  //   $up = new Upload();
+  //   $up->change_cover_photo();
+  //   break;  
+  // case "/eventorg/api/add-accomplishments":
+  //   $up = new Upload();
+  //   $up->add_accomplishments();
+  //   break;                                                       
+  // default:
+  //   echo "error request url: ".$request;
+// }
